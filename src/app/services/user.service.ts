@@ -16,7 +16,7 @@ export class UserService {
   
  
   //private apiUrl = 'http://localhost:3000';
-  private apiUrl = 'http://52.45.120.140:3000/';
+  private apiUrl = 'http://52.45.120.140:3000/api/users';
 
 
   constructor(private http: HttpClient) { }
